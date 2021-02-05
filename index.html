@@ -9,8 +9,27 @@
 </head>
 
 <body>
+    <h2 id="backgroundMusic-text">Please press key "M" <br />to turn on/off <br />background music</h2>
+    <div class="setting">
+        <hr>
+        <h2>Press key "M" <h2>
+                <h2>Music: <span id='music-state'>On</span></h2>
+                <hr>
+                <h2>Top 5</h2>
+                <ul id='top-players'>
+
+                </ul>
+    </div>d
+    <div class="timer">
+        <h6>Time: <span id="timer">0</span></h6>
+    </div>
+
     <div class="winner hidden">
+        <audio src="music/advanture.mp3" id="background-music"></audio>
         <h1>You Win!</h1>
+        <h2>Your score: <span id="score"></span></h2>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <button class="next-level">Next Level!</button>
     </div>
     <script src="script.js"></script>
 </body>
